@@ -4,7 +4,7 @@ import MovieDetails from "../components/movieDetails/";
 import Grid from "@mui/material/Grid";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import React, {useState, useEffect}  from "react";
+import {useState, useEffect}  from "react";
 import { useParams } from 'react-router-dom';
 
 const MoviePage = (props) => {
